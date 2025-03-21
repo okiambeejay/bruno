@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Site de Análise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background: #f4f4f4;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Envie-nos uma mensagem</h2>
+        <p>Este formulário é apenas para demonstração e não envia mensagens reais.</p>
+        
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="button" onclick="alert('Este é apenas um exemplo. O formulário não envia dados.')">Enviar</button>
+        </form>
+        
+        <p><a href="index.html">Voltar para a página inicial</a></p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Meu Site de Análise - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="site-traffic-analyzer.js"></script>
+</body>
+</html>
